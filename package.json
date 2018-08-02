@@ -1,5 +1,5 @@
 {
-  "name": "@developmount/generator-react-component",
+  "name": "@developmount/generator-package",
   "version": "1.0.0",
   "description": "A Yeoman generator for React component libraries.",
   "main": "index.js",

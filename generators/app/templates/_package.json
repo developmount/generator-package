@@ -1,11 +1,17 @@
 {
   "name": "<%= name %>",
-  "scripts": {},
+  "version": "1.0.0",
+  "main": "dist/<%= exportName %>.cjs.js",
+  "module": "dist/<%= exportName %>.esm.js",
+  "browser": "dist/<%= exportName %>.umd.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
   "dependencies": {},
   "devDependencies": {
-    "rollup": "^0.63.5",
-    "rollup-plugin-babel": "^3.0.7",
-    "rollup-plugin-commonjs": "^9.1.4",
-    "rollup-plugin-node-resolve": "^3.3.0"
-  }
+    "rollup": "^0.63.4",
+    "rollup-plugin-commonjs": "^9.1.0",
+    "rollup-plugin-node-resolve": "^3.0.0"
+  },
+  "files": ["dist"]
 }
