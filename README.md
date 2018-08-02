@@ -1,3 +1,3 @@
-# Generator React Component
+# Generator Package
 
-A [Yeoman](http://yeoman.io/) generator for a React component library.
+A [Yeoman](http://yeoman.io/) generator for npm packages.
