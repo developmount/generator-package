@@ -1,0 +1,14 @@
+{
+  "name": "@developmount/generator-react-component",
+  "version": "1.0.0",
+  "description": "A Yeoman generator for React component libraries.",
+  "main": "index.js",
+  "author": "Greg Chamberlain <gregchamberlain94@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "yeoman-generator": "^3.1.1"
+  },
+  "files": [
+    "generators"
+  ]
+}
