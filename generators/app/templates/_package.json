@@ -5,7 +5,9 @@
   "module": "dist/<%= exportName %>.esm.js",
   "browser": "dist/<%= exportName %>.umd.js",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "predeploy": "yarn build",
+    "deploy": "yarn deploy"
   },
   "dependencies": {},
   "devDependencies": {

@@ -16,8 +16,13 @@ module.exports = class extends Generator {
         default: this.appname,
       },
     ]).then((answers) => {
+      this.config.set(this.props);
       this.props = answers;
     });
+  }
+
+  configuring() {
+    this.config.save();
   }
 
   writing() {
